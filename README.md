@@ -1,7 +1,7 @@
-# VideoCallingApp
+# Video Calling Web
 
 ## Overview
-VideoCallingApp is a modern web application designed to facilitate video calls and meetings. Built with a focus on user experience and performance, this application leverages the latest technologies to provide a seamless communication platform.
+Video Calling Web is a modern web application designed to facilitate video calls and meetings. Built with a focus on user experience and performance, this application leverages the latest technologies to provide a seamless communication platform.
 
 ## Features
 - **Real-time Video Calls**: Engage in high-quality video calls with friends, family, or colleagues.
@@ -11,22 +11,27 @@ VideoCallingApp is a modern web application designed to facilitate video calls a
 - **Intuitive UI**: User-friendly interface for easy navigation and usage.
 
 ## Technologies Used
-- **Frontend**: React, TypeScript, Tailwind CSS
-- **Backend**: Node.js, Express (if applicable)
-- **Database**: MongoDB (if applicable)
+- **Frontend**: React, Next.js, TypeScript, Tailwind CSS
+- **Backend**: Node.js (if applicable)
 - **WebRTC**: For real-time communication
+- **Dependencies**:
+  - @clerk/nextjs
+  - @radix-ui/react-dialog
+  - @radix-ui/react-dropdown-menu
+  - @radix-ui/react-toast
+  - @stream-io/video-react-sdk
 
 ## Installation
-To get started with VideoCallingApp, follow these steps:
+To get started with Video Calling Web, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/SyedKifayat1/VideoCallingApp.git
+   git clone https://github.com/SyedKifayat1/VideoCallingWeb.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd VideoCallingApp
+   cd VideoCallingWeb
    ```
 
 3. Install the dependencies:
